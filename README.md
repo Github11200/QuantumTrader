@@ -1,2 +1,2 @@
 # QuantumTrader
-This is an AI/ML stock predictor.
+AI/ML stock predictor.
