@@ -1,10 +1,18 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Lexend } from "next/font/google"
+import { Inter as FontSans } from "next/font/google"
+import { IBM_Plex_Mono } from "next/font/google";
+import { Lexend } from "next/font/google";
  
 import { cn } from "../lib/utils"
 
-const fontSans = Lexend({
+const lexend = Lexend({
+    subsets: ["latin"],
+    weight: ["400"],
+    variable: "--font-lexend",
+})
+
+const fontSans = FontSans({
     subsets: ["latin"],
     variable: "--font-sans",
 });
@@ -22,8 +30,9 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={cn(
-          "min-h-screen bg-background font-sans antialiased dark",
-          fontSans.variable
+          "min-h-screen bg-background lexend antialiased dark overflow-x-hidden",
+          fontSans.variable,
+          lexend.variable
         )}>{children}</body>
     </html>
   );

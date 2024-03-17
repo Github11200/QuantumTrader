@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
  
+.lexend {
+    font-family: var(--font-lexend);
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -32,14 +36,14 @@
     --input: 214.3 31.8% 91.4%;
     --ring: 222.2 84% 4.9%;
  
-    --radius: 0.5rem;
+    --radius: 0.7rem;
   }
  
   .dark {
     --background: 0 0% 0%;
     --foreground: 210 40% 98%;
  
-    --card: 222.2 84% 4.9%;
+    --card: #0C0909;
     --card-foreground: 210 40% 98%;
  
     --popover: 222.2 84% 4.9%;
