@@ -17,7 +17,7 @@ interface CardInfo {
 
 export function InfoCard({ cardTitle, cardContent, cardImage }: CardInfo) {
   return (
-    <Card className="w-[80%]">
+    <Card className="w-[80%] p-[2%]">
       <CardHeader>
         <CardTitle>{cardTitle}</CardTitle>
       </CardHeader>

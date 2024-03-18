@@ -9,11 +9,11 @@ export default function Home() {
             <div className="bg-gradient-to-b from-[#40C9FF] to-[#E81CFF] blur-[10rem] size-[50%] rounded-full absolute bottom-[60vh] left-[-30vw]"></div>
             <div className="bg-gradient-to-b from-[#0061FF] to-[#60EFFF] blur-[10rem] size-[50%] rounded-full absolute bottom-[0vh] left-[85vw]"></div>
             <div className="flex flex-col justify-center text-center gap-12 align-middle min-h-[100vh] lexend">
-                <h1 className="lexend text-[8vw]">Quantum Trader</h1>
+                <h1 className="lexend text-[8vw] bg-gradient-to-r from-[#ff1b6b] to-[#45caff] text-transparent bg-clip-text [text-shadow: 20px 20px 80px #45caff] title">Quantum Trader</h1>
                 <h3 className="text-[1.6vw] w-[60%] mx-auto">Revolutionizing the way people trade stocks with AI powered prediction algorithms.</h3>
-                <div className="grid grid-cols-[72%_28%] grid-rows-1 w-[60%] mx-auto">
-                    <Input type="email" placeholder="Email" className="grow" />
-                    <Button className="text-[100%] px-7 ml-6">Join the waitlist</Button>
+                <div className="grid grid-cols-[72%_28%] grid-rows-1 w-[60%] mx-auto h-[6vh]">
+                    <Input type="email" placeholder="Email" className="grow h-[100%]" />
+                    <Button className="text-[100%] px-7 ml-6 h-[100%]">Join the waitlist</Button>
                 </div>
             </div>
         </div>

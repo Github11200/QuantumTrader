@@ -6,6 +6,13 @@
     font-family: var(--font-lexend);
 }
 
+.title {
+    background: linear-gradient(to right, #d46c76 , #ffc07c, #33e196e);
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-weight: 900;
+}
+
 @layer base {
   :root {
     --background: 0 0% 100%;
