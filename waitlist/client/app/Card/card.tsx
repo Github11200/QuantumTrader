@@ -17,7 +17,7 @@ interface CardInfo {
 
 export function InfoCard({ cardTitle, cardContent, cardImage }: CardInfo) {
   return (
-    <div className="bg-gradient-to-br from-[#40c9ff9e] to-[#e81cff87] rounded-[var(--radius)] p-0.5 z-10 lg:w-9/12">
+    <div className="rounded-[var(--radius)] p-0.5 z-10 lg:w-9/12">
         <Card className="w-[100%] z-10 bg-black h-full">
             <CardHeader>
                 <CardTitle>{cardTitle}</CardTitle>
