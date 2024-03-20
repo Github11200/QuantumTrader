@@ -18,10 +18,10 @@ export default function Home() {
             </div>
         </div>
         <div className="grid grid-cols-[auto_auto] w-[80%] mx-auto justify-items-center gap-y-[15vh]">
-            <InfoCard cardTitle="HELP" cardContent="Alr look. I'ma make this real simple. We offer the best AI stock prediction you'll ever find, and guess what, you just found it! With over 110% accuracy (we aren't gonna get sued) we offer the best service ever (placeholder text :))" cardImage="/placeholder.jpeg" />
-            <InfoCard cardTitle="HELP" cardContent="Alr look. I'ma make this real simple. We offer the best AI stock prediction you'll ever find, and guess what, you just found it! With over 110% accuracy (we aren't gonna get sued) we offer the best service ever (placeholder text :))" cardImage="/placeholder.jpeg" />
-            <InfoCard cardTitle="HELP" cardContent="Alr look. I'ma make this real simple. We offer the best AI stock prediction you'll ever find, and guess what, you just found it! With over 110% accuracy (we aren't gonna get sued) we offer the best service ever (placeholder text :))" cardImage="/placeholder.jpeg" />
-            <InfoCard cardTitle="HELP" cardContent="Alr look. I'ma make this real simple. We offer the best AI stock prediction you'll ever find, and guess what, you just found it! With over 110% accuracy (we aren't gonna get sued) we offer the best service ever (placeholder text :))" cardImage="/placeholder.jpeg" />
+            <InfoCard cardTitle="High Accuracy" cardContent="Our prediction model utilizes years of data while accounting other factors to provide high accuracy trading." cardImage="/placeholder.jpeg" />
+            <InfoCard cardTitle="Crypto Supported" cardContent="Our software offers a wide range trading options to choose from including bitcoin and ethreum" cardImage="/placeholder.jpeg" />
+            <InfoCard cardTitle="Low Risk" cardContent="Our prediction model has built in safety measures to prevent any type of financial loss." cardImage="/placeholder.jpeg" />
+            <InfoCard cardTitle="Easy to use" cardContent="Our Software is precisely designed to provide a easy environment for anyone with no experience needed in stock/crypto trading." cardImage="/placeholder.jpeg" />
         </div>
         <div>
             <h2 className="text-[5vw] text-center mt-[15vh]">Contact Us</h2>
