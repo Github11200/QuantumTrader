@@ -17,14 +17,16 @@ interface CardInfo {
 
 export function InfoCard({ cardTitle, cardContent, cardImage }: CardInfo) {
   return (
-    <Card className="w-[80%] p-[2%]">
-      <CardHeader>
-        <CardTitle>{cardTitle}</CardTitle>
-      </CardHeader>
-      <CardContent>
-        <Image src={cardImage} width={500} height={500} alt="placeholder???" className="rounded-[var(--radius)] mb-7" />
-        {cardContent}
-      </CardContent>
-    </Card>
+    <div className="bg-gradient-to-br from-[#40c9ff9e] to-[#e81cff87] rounded-[var(--radius)] p-0.5 z-10 lg:w-9/12">
+        <Card className="w-[100%] z-10 bg-black">
+            <CardHeader>
+                <CardTitle>{cardTitle}</CardTitle>
+            </CardHeader>
+            <CardContent>
+                <Image src={cardImage} width={500} height={500} alt="placeholder???" className="rounded-[var(--radius)] mb-7 mx-auto" />
+                {cardContent}
+            </CardContent>
+        </Card>
+    </div>
   )
 }

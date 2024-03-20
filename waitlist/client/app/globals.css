@@ -7,7 +7,7 @@
 }
 
 .title {
-    background: linear-gradient(to right, #d46c76 , #ffc07c, #33e196e);
+    background: linear-gradient(to right, #d46c76 , #ffc07c, #33e196);
     -webkit-text-fill-color: transparent;
     background-clip: text;
     font-weight: 900;
