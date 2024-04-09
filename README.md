@@ -5,7 +5,7 @@
 # Quantum Trader
 This is a piece of software that aims to predict stock prices using ML models and a popular deep learning frameowrk called PyTorch.
 
-## Future Development
+## Future Development 🛣️
 Here are some things we aim to continue adding to this project:
 - Dynamically changing the sequence length (also known as a look back window)
 - Dynamically calculating how much we need to scale the data in order to get the best results
